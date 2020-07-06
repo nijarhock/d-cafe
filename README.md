@@ -21,6 +21,9 @@ setting database
 ### php artisan migrate
 migration database
 
+### php artisan db:seed
+seeding data users
+
 ### php artisan serve
 akses ke [http://127.0.0.1:8080]
 
@@ -31,17 +34,17 @@ Terdapat 3 Role berikut :
 3. waiter
 
 Login awal bisa menggunakan
-email : admin@gmail.com
-pass : 123456
-role : admin
+- email : admin@gmail.com
+- pass : 123456
+- role : admin
 
-email : kasir@gmail.com
-pass : 123456
-role : kasir
+- email : kasir@gmail.com
+- pass : 123456
+- role : kasir
 
-email : waiter@gmail.com
-pass : 123456
-role : waiter
+- email : waiter@gmail.com
+- pass : 123456
+- role : waiter
 
 ### API 
 - Api Login/Get Token dapat di akses di http://127.0.0.1:8080/api/login
